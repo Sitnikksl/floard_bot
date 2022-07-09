@@ -4,8 +4,11 @@
   "description": "bot for friends",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon --experimental-json-modules index.js",
     "start": "node index.js"
+  },
+  "nodemonConfig": {
+    "ignore": "./dataBases/dataBase.json"
   },
   "repository": {
     "type": "git",
