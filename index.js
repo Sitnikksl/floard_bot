@@ -2,13 +2,12 @@
 import fetch from "node-fetch";
 import TelegramApi from "node-telegram-bot-api";
 import sqlite3 from "sqlite3";
-import dataDabse from './dataBases/dataBase.json' assert {type: 'json'};
+import dataBase from './dataBases/dataBase.json' assert {type: 'json'};
 import * as fs from 'fs';
 
-let tempBase = dataDabse;
-tempBase.members[1].IsActive = true;
-console.log(tempBase);
-let data = JSON.stringify(tempBase);
+let tempBase = dataBase;
+let todayActiveMembers = dataBase.members;
+let data = JSON.stringify(tempBase, null, '\t');
 fs.writeFileSync('./dataBases/dataBase.json', data);
 
 
@@ -32,42 +31,28 @@ const start = () =>{
         if (text === '/start'){
             await bot.sendMessage(chatId, "Добро пожаловать в наполочного бота!");
             // await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/b0d/85f/b0d85fbf-de1b-4aaf-836c-1cddaa16e002/1.gif');
-        }
-        else if (text === '/who'){
-            let listMembers = '';
-            for (let i = 0; i < Object.values(testReturn).length; ++i) {
-                listMembers += testReturn[i]['Name'];
-                listMembers += '\n'
-            }
-            await bot.sendMessage(chatId, listMembers);
         }else if(text ==='/firstmove'){
             let firstMoveMessage = 'Посылаю сигналы вселенной...' + '\n' + 'Иии... первым будет ходить...' + '\n' + '🥁🥁🥁' + '\n';
             await bot.sendMessage(chatId, firstMoveMessage);
             bot.sendAnimation(chatId, 'https://i.gifer.com/cE1.gif');
-            let listMembers = Object.values(testReturn).length;
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
-            let random = getRandomInt(listMembers);
-            let finalMember = testReturn[random]['Name'];
-            finalMember += ' ' + testReturn[random]['Surname'];
-            finalMember += ' ' + '🎉';
-            await setTimeout(() => {
-                bot.sendMessage(chatId, finalMember);
+            let randomCount = getRandomInt(tempBase.members.length);
+            let firstMan = tempBase.members[randomCount].Name 
+            + ' ' + tempBase.members[randomCount].SurName
+            + ' 🎉';
+            setTimeout(() => {
+                bot.sendMessage(chatId, firstMan)
             }, 3000);
+            
         }else if(text === '/members'){
             let allMembers = 'Вот текущий состав наполок: ' + '\n' + '\n';
-            for(let i = 0; i<Object.values(testReturn).length; i++){
-                allMembers += '🎲 ' + testReturn[i]['Surname'];
-                allMembers += ' ' + testReturn[i]['Name'] + '\n';
+            
+            for(let i=0;i<tempBase.members.length; i++){
+                allMembers += '✨ ' + tempBase.members[i].SurName + ' ' + tempBase.members[i].Name + '\n'
             }
-            bot.sendMessage(chatId, allMembers);
-        }else if(text === '/active'){
-            for(let i=0; i<dataDabse.members.length; i++){
-                if(dataDabse.members[i].IsActive == true){
-                    console.log(dataDabse.members[i].Name);
-                }
-            }
+            bot.sendMessage(chatId, allMembers)
         }
         else if(text === '/roll'){
             bot.sendDice(chatId);
