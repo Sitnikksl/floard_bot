@@ -15,7 +15,8 @@ const start = () =>{
         const chatId = msg.chat.id;
 
         if (text === '/start'){
-            return bot.sendMessage(chatId, 'Hello World');
+            await bot.sendMessage(chatId, 'Добро пожаловать в бота для наполок!');
+            // await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/b0d/85f/b0d85fbf-de1b-4aaf-836c-1cddaa16e002/1.gif');
          }
 
     })
