@@ -4,12 +4,8 @@
 			"ID": 1,
 			"Name": "Александр",
 			"SurName": "Ситник",
-<<<<<<< HEAD
 			"NickName": "Бумер",
 			"TelegramID": "0",
-=======
-			"TelegramID": 1111,
->>>>>>> 78e6355e3745528d0f17c7c83f1cf6af48a4998e
 			"BirthDate": "1995-06-28",
 			"IsActive": true
 		},
@@ -17,7 +13,6 @@
 			"ID": 2,
 			"Name": "Сергей",
 			"SurName": "Молчанов",
-<<<<<<< HEAD
 			"NickName": "Мангуст",
 			"TelegramID": "0",
 			"BirthDate": "1996-09-24",
@@ -112,30 +107,17 @@
 			"TelegramID": "0",
 			"BirthDate": "1996-05-14",
 			"IsActive": true
-=======
-			"TelegramID": 2222,
-			"BirthDate": "1996-09-24",
-			"IsActive": true
->>>>>>> 78e6355e3745528d0f17c7c83f1cf6af48a4998e
 		}
 	],
 	"games": [
 		{
 			"gameName": "Bang",
-<<<<<<< HEAD
 			"duration": 60,
-=======
-			"duration": "60",
->>>>>>> 78e6355e3745528d0f17c7c83f1cf6af48a4998e
 			"type": 3
 		},
 		{
 			"gameName": "Alias",
-<<<<<<< HEAD
 			"duration": 20,
-=======
-			"duration": "20",
->>>>>>> 78e6355e3745528d0f17c7c83f1cf6af48a4998e
 			"type": 2
 		}
 	]
