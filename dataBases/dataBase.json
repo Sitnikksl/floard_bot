@@ -4,7 +4,8 @@
 			"ID": 1,
 			"Name": "Александр",
 			"SurName": "Ситник",
-			"TelegramID": 1111,
+			"NickName": "Бумер",
+			"TelegramID": "0",
 			"BirthDate": "1995-06-28",
 			"IsActive": true
 		},
@@ -12,20 +13,111 @@
 			"ID": 2,
 			"Name": "Сергей",
 			"SurName": "Молчанов",
-			"TelegramID": 2222,
+			"NickName": "Мангуст",
+			"TelegramID": "0",
 			"BirthDate": "1996-09-24",
+			"IsActive": true
+		},
+		{
+			"ID": 3,
+			"Name": "Владислав",
+			"SurName": "Ваняшин",
+			"NickName": "олПАУВЕРФУЛ",
+			"TelegramID": "0",
+			"BirthDate": "1997-08-04",
+			"IsActive": true
+		},
+		{
+			"ID": 4,
+			"Name": "Илья",
+			"SurName": "Валиуллин",
+			"NickName": "Директор дедов",
+			"TelegramID": "0",
+			"BirthDate": "1994-12-04",
+			"IsActive": true
+		},
+		{
+			"ID": 5,
+			"Name": "Алексей",
+			"SurName": "Панасюк",
+			"NickName": "Младший лейтенант",
+			"TelegramID": "0",
+			"BirthDate": "1997-01-10",
+			"IsActive": true
+		},
+		{
+			"ID": 6,
+			"Name": "Татьяна",
+			"SurName": "Мосунова",
+			"NickName": "Николаешна",
+			"TelegramID": "0",
+			"BirthDate": "2000-11-30",
+			"IsActive": true
+		},
+		{
+			"ID": 7,
+			"Name": "Татьяна",
+			"SurName": "Юн",
+			"NickName": "ТАНОС",
+			"TelegramID": "0",
+			"BirthDate": "1996-09-26",
+			"IsActive": true
+		},
+		{
+			"ID": 8,
+			"Name": "Вероника",
+			"SurName": "Серовикова",
+			"NickName": "Личинка",
+			"TelegramID": "0",
+			"BirthDate": "2000-07-22",
+			"IsActive": true
+		},
+		{
+			"ID": 9,
+			"Name": "Евгения",
+			"SurName": "Удалых",
+			"NickName": "Кислая",
+			"TelegramID": "0",
+			"BirthDate": "1997-09-19",
+			"IsActive": true
+		},
+		{
+			"ID": 10,
+			"Name": "Полина",
+			"SurName": "Валиуллина",
+			"NickName": "Ярче",
+			"TelegramID": "0",
+			"BirthDate": "1997-01-01",
+			"IsActive": true
+		},
+		{
+			"ID": 11,
+			"Name": "Лидия",
+			"SurName": "Матюшонок",
+			"NickName": "экоЮрист",
+			"TelegramID": "0",
+			"BirthDate": "1996-06-11",
+			"IsActive": false
+		},
+		{
+			"ID": 12,
+			"Name": "Ян",
+			"SurName": "Яблонский",
+			"NickName": "Чай",
+			"TelegramID": "0",
+			"BirthDate": "1996-05-14",
 			"IsActive": true
 		}
 	],
 	"games": [
 		{
 			"gameName": "Bang",
-			"duration": "60",
+			"duration": 60,
 			"type": 3
 		},
 		{
 			"gameName": "Alias",
-			"duration": "20",
+			"duration": 20,
 			"type": 2
 		}
 	]
