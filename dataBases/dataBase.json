@@ -1,1 +1,32 @@
-{"members":[{"ID":1,"Name":"Александр","SurName":"Ситник","TelegramID":1111,"BirthDate":"1995-06-28","IsActive":true},{"ID":2,"Name":"Сергей","SurName":"Молчанов","TelegramID":2222,"BirthDate":"1996-09-24","IsActive":true}],"games":[{"gameName":"Bang","duration":"60","type":3},{"gameName":"Alias","duration":"20","type":2}]}
+{
+	"members": [
+		{
+			"ID": 1,
+			"Name": "Александр",
+			"SurName": "Ситник",
+			"TelegramID": 1111,
+			"BirthDate": "1995-06-28",
+			"IsActive": true
+		},
+		{
+			"ID": 2,
+			"Name": "Сергей",
+			"SurName": "Молчанов",
+			"TelegramID": 2222,
+			"BirthDate": "1996-09-24",
+			"IsActive": true
+		}
+	],
+	"games": [
+		{
+			"gameName": "Bang",
+			"duration": "60",
+			"type": 3
+		},
+		{
+			"gameName": "Alias",
+			"duration": "20",
+			"type": 2
+		}
+	]
+}
