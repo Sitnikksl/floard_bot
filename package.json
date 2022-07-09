@@ -1,0 +1,30 @@
+{
+  "name": "floardbot",
+  "version": "1.0.0",
+  "description": "bot for friends",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sitnikksl/floard_bot.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "floard production",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sitnikksl/floard_bot/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Sitnikksl/floard_bot#readme",
+  "dependencies": {
+    "import": "^0.0.6",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19"
+  }
+}
