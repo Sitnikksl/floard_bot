@@ -130,20 +130,269 @@
 		"Games": {
 			"data": [
 				{
-					"ID": 2,
-					"Name": "Тестовая игра",
+					"ID": 1,
+					"Name": "Бэнг",
 					"MinAmount": 3,
+					"MaxAmount": 8,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 2,
+					"Name": "Свинтус",
+					"MinAmount": 2,
+					"MaxAmount": 10,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 3,
+					"Name": "Манчкин",
+					"MinAmount": 3,
+					"MaxAmount": 6,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 4,
+					"Name": "Мы обречены",
+					"MinAmount": 4,
+					"MaxAmount": 10,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 5,
+					"Name": "Codenames Pictures",
+					"MinAmount": 2,
+					"MaxAmount": 12,
+					"Duration": "Средняя",
+					"ActionType": "Командная",
+					"IsConversational": true
+				},
+				{
+					"ID": 6,
+					"Name": "Битва магов",
+					"MinAmount": 2,
+					"MaxAmount": 6,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 7,
+					"Name": "Эволюция",
+					"MinAmount": 2,
+					"MaxAmount": 4,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 8,
+					"Name": "Взрывные котята",
+					"MinAmount": 2,
+					"MaxAmount": 5,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 9,
+					"Name": "Соображай",
+					"MinAmount": 2,
+					"MaxAmount": 10,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": true
+				},
+				{
+					"ID": 10,
+					"Name": "Шпион",
+					"MinAmount": 3,
+					"MaxAmount": 12,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": true
+				},
+				{
+					"ID": 11,
+					"Name": "Сопротивление",
+					"MinAmount": 5,
+					"MaxAmount": 10,
+					"Duration": "Средняя",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": true
+				},
+				{
+					"ID": 12,
+					"Name": "Alias",
+					"MinAmount": 2,
+					"MaxAmount": 12,
+					"Duration": "Средняя",
+					"ActionType": "Командная",
+					"IsConversational": true
+				},
+				{
+					"ID": 13,
+					"Name": "Шляпа",
+					"MinAmount": 2,
+					"MaxAmount": 12,
+					"Duration": "Долгая",
+					"ActionType": "Командная",
+					"IsConversational": true
+				},
+				{
+					"ID": 14,
+					"Name": "Гравити Фолз",
+					"MinAmount": 1,
+					"MaxAmount": 5,
+					"Duration": "Долгая",
+					"ActionType": "Кооперативная",
+					"IsConversational": false
+				},
+				{
+					"ID": 15,
+					"Name": "Гравити Фолз: Спасти Пухлю",
+					"MinAmount": 2,
 					"MaxAmount": 5,
 					"Duration": "Средняя",
 					"ActionType": "Каждый сам за себя",
 					"IsConversational": false
+				},
+				{
+					"ID": 16,
+					"Name": "GameDev Sim",
+					"MinAmount": 2,
+					"MaxAmount": 4,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 17,
+					"Name": "Монополия",
+					"MinAmount": 2,
+					"MaxAmount": 6,
+					"Duration": "Долгая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 18,
+					"Name": "Лото",
+					"MinAmount": 2,
+					"MaxAmount": 12,
+					"Duration": "Средняя",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": true
+				},
+				{
+					"ID": 19,
+					"Name": "Элементарно",
+					"MinAmount": 1,
+					"MaxAmount": 12,
+					"Duration": "Долгая",
+					"ActionType": "Кооперативная",
+					"IsConversational": true
+				},
+				{
+					"ID": 20,
+					"Name": "Мафия",
+					"MinAmount": 5,
+					"MaxAmount": 12,
+					"Duration": "Средняя",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": true
+				},
+				{
+					"ID": 21,
+					"Name": "Покер",
+					"MinAmount": 2,
+					"MaxAmount": 12,
+					"Duration": "Средняя",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				},
+				{
+					"ID": 22,
+					"Name": "Домино",
+					"MinAmount": 2,
+					"MaxAmount": 4,
+					"Duration": "Быстрая",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
 				}
 			],
-			"IDCounter": 3
+			"IDCounter": 23
 		}
 	},
 	{
 		"Preferences": [
+			{
+				"MemberID": 1,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 1,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 1,
+				"Level": 1
+			},
 			{
 				"MemberID": 1,
 				"GameID": 2,
@@ -202,6 +451,1206 @@
 			{
 				"MemberID": 12,
 				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 3,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 4,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 5,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 6,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 7,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 8,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 9,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 10,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 11,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 12,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 13,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 14,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 15,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 16,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 17,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 18,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 19,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 20,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 21,
+				"Level": 1
+			},
+			{
+				"MemberID": 1,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 22,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 22,
 				"Level": 1
 			}
 		]
