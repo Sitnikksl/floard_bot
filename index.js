@@ -6,30 +6,6 @@ import * as DB from "./classes.js"
 // #region TEST DB.Database
 
 //let db = new DB.Database('database.json');
-//console.log(db);
-//db.Games.deleteGame(2);
-//console.log(db);
-// db.Games.addGame('Бэнг', 3, 8, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Свинтус', 2, 10, DB.Durations.Types.fast, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Манчкин', 3, 6, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Мы обречены', 4, 10, DB.Durations.Types.fast, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Codenames Pictures', 2, 12, DB.Durations.Types.average, DB.ActionTypes.Types.teams, true);
-// db.Games.addGame('Битва магов', 2, 6, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Эволюция', 2, 4, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Взрывные котята', 2, 5, DB.Durations.Types.fast, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Соображай', 2, 10, DB.Durations.Types.fast, DB.ActionTypes.Types.single, true);
-// db.Games.addGame('Шпион', 3, 12, DB.Durations.Types.fast, DB.ActionTypes.Types.single, true);
-// db.Games.addGame('Сопротивление', 5, 10, DB.Durations.Types.average, DB.ActionTypes.Types.single, true);
-// db.Games.addGame('Alias', 2, 12, DB.Durations.Types.average, DB.ActionTypes.Types.teams, true);
-// db.Games.addGame('Шляпа', 2, 12, DB.Durations.Types.long, DB.ActionTypes.Types.teams, true);
-// db.Games.addGame('Гравити Фолз: Спасти Пухлю', 2, 5, DB.Durations.Types.average, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('GameDev Sim', 2, 4, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Монополия', 2, 6, DB.Durations.Types.long, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Лото', 2, 12, DB.Durations.Types.average, DB.ActionTypes.Types.single, true);
-// db.Games.addGame('Элементарно', 1, 12, DB.Durations.Types.long, DB.ActionTypes.Types.coop, true);
-// db.Games.addGame('Мафия', 5, 12, DB.Durations.Types.average, DB.ActionTypes.Types.single, true);
-// db.Games.addGame('Покер', 2, 12, DB.Durations.Types.average, DB.ActionTypes.Types.single, false);
-// db.Games.addGame('Домино', 2, 4, DB.Durations.Types.fast, DB.ActionTypes.Types.single, false);
 // console.log(db);
 // db.save();
 
