@@ -1,0 +1,209 @@
+[
+	{
+		"Members": {
+			"data": [
+				{
+					"ID": 1,
+					"Name": "Александр",
+					"Surname": "Ситник",
+					"Nickname": "Бумер",
+					"TelegramID": "0",
+					"BirthDate": "1995-06-28",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 2,
+					"Name": "Сергей",
+					"Surname": "Молчанов",
+					"Nickname": "Мангуст",
+					"TelegramID": "0",
+					"BirthDate": "1996-09-24",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 3,
+					"Name": "Владислав",
+					"Surname": "Ваняшин",
+					"Nickname": "олПАУВЕРФУЛ",
+					"TelegramID": "0",
+					"BirthDate": "1997-08-04",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 4,
+					"Name": "Илья",
+					"Surname": "Валиуллин",
+					"Nickname": "Директор дедов",
+					"TelegramID": "0",
+					"BirthDate": "1994-12-04",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 5,
+					"Name": "Алексей",
+					"Surname": "Панасюк",
+					"Nickname": "Младший лейтенант",
+					"TelegramID": "0",
+					"BirthDate": "1997-01-10",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 6,
+					"Name": "Татьяна",
+					"Surname": "Мосунова",
+					"Nickname": "Николаешна",
+					"TelegramID": "0",
+					"BirthDate": "2000-11-30",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 7,
+					"Name": "Татьяна",
+					"Surname": "Юн",
+					"Nickname": "ТАНОС",
+					"TelegramID": "0",
+					"BirthDate": "1996-09-26",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 8,
+					"Name": "Вероника",
+					"Surname": "Серовикова",
+					"Nickname": "Личинка",
+					"TelegramID": "0",
+					"BirthDate": "2000-07-22",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 9,
+					"Name": "Евгения",
+					"Surname": "Удалых",
+					"Nickname": "Кислая",
+					"TelegramID": "0",
+					"BirthDate": "1997-09-19",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 10,
+					"Name": "Полина",
+					"Surname": "Валиуллина",
+					"Nickname": "Ярче",
+					"TelegramID": "0",
+					"BirthDate": "1997-01-01",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				},
+				{
+					"ID": 11,
+					"Name": "Лидия",
+					"Surname": "Матюшонок",
+					"Nickname": "экоЮрист",
+					"TelegramID": "0",
+					"BirthDate": "1996-06-11",
+					"BirthdayGroupID": "0",
+					"IsActive": false
+				},
+				{
+					"ID": 12,
+					"Name": "Ян",
+					"Surname": "Яблонский",
+					"Nickname": "Чай",
+					"TelegramID": "0",
+					"BirthDate": "1996-05-14",
+					"BirthdayGroupID": "0",
+					"IsActive": true
+				}
+			],
+			"IDCounter": 13
+		}
+	},
+	{
+		"Games": {
+			"data": [
+				{
+					"ID": 2,
+					"Name": "Тестовая игра",
+					"MinAmount": 3,
+					"MaxAmount": 5,
+					"Duration": "Средняя",
+					"ActionType": "Каждый сам за себя",
+					"IsConversational": false
+				}
+			],
+			"IDCounter": 3
+		}
+	},
+	{
+		"Preferences": [
+			{
+				"MemberID": 1,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 2,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 3,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 4,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 5,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 6,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 7,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 8,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 9,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 10,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 11,
+				"GameID": 2,
+				"Level": 1
+			},
+			{
+				"MemberID": 12,
+				"GameID": 2,
+				"Level": 1
+			}
+		]
+	}
+]
