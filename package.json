@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "nodemonConfig": {
-    "ignore": "./dataBases/dataBase.json"
+    "ignore": "./Database/database.json"
   },
   "repository": {
     "type": "git",
