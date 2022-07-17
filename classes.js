@@ -1143,10 +1143,57 @@ export class GamesList extends GamesBase {
 //#endregion
 
 //#region Preferences
-function prefLvlWithin2(val) {
+/**
+ * Класс-справочник уровней предпочтения.
+ * Только статические методы и поля. Создание экземпляров(объектов) не подразумевается.
+ */
+export class PreferenceLevel {
+    static #levels = ['Никогда не буду играть в неё', 'Не против, но против', 'Норм', 'ДА1!1'];
+    static #Levels = {lowest: this.#levels[0], belowaverage: this.#levels[1], average: this.#levels[2], highest: this.#levels[3]};
+    /**
+     * Возвращает ID уровня по названию.
+     * @param {string} fndName строка с названием уровня
+     * @returns {number} ID уровня
+     */
+    static getIDByName(fndName) {
+        let res = this.#levels.findIndex((val) => {return val === fndName});
+        if (res == -1) {
+            throw 'PreferenceLevel.getIDByName() error. Unknown name.';
+        }
+        return res;
+    }
+    /**
+     * Возвращает название уровня предпочтений по ID.
+     * @param {number} fndID ID уровня
+     * @returns {string} название искомого уровня
+     */
+    static getNameByID(fndID) {
+        let res = this.#levels[fndID];
+        if (res === undefined) {
+            throw 'PreferenceLevel.getNameByID() error. Unknown ID.';
+        }
+        return res;
+    }
+    /**
+     * Возвращает массив строк, содержащий все названия типов игры.
+     * @returns {[string]} массив строк, со всеми типами
+     */
+    static getAllLevelsArr() {
+        return Array.from(this.#levels);
+    }
+    /**
+     * getter для доступа к сокращениям уровней.
+     * Возвращает объект с полями lowest, belowaverage, average, highest.
+     */
+    static get Levels() {
+        return this.#Levels;
+    }
+}
+
+function prefLvlWithin3(val) {
     let res = val;
-    if (res >= 3) {
-        res = 2;
+    if (res > 3) {
+        res = 3;
     } else if (res < 0) {
         res = 0;
     }
@@ -1162,7 +1209,7 @@ export class Preference {
         if (typeof(setLevel) !== 'number') {
             throw 'Preference.constructor() error. Type of setLevel must be \'number\'.'
         }
-        this._Level = prefLvlWithin2(setLevel);
+        this._Level = prefLvlWithin3(setLevel);
     }
     get MemberID() {
         return this._MemberID;
@@ -1176,11 +1223,25 @@ export class Preference {
     set GameID(gameID) {
         this._GameID = gameID;
     }
+    /**
+     * Возвращает название установленного в сущности уровня предпочтения.
+     * @returns {string} название уровня предпочтения
+     */
+    get LevelName() {
+        return PreferenceLevel.getNameByID(this._Level);
+    }
+    /**
+     * Задаёт уровень предпочтения по текстовому названию из класса PreferenceLevels.
+     * @param {string} lvlName
+     */
+    set LevelName(lvlName) {
+        this._Level = PreferenceLevel.getIDByName(lvlName);
+    }
     get Level() {
         return this._Level;
     }
     set Level(level) {
-        this._Level = prefLvlWithin2(level);
+        this._Level = prefLvlWithin3(level);
     } 
     toJSON() {
         return {
